@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
-<body class="bg-secondary">
-    <h1 class="text-white text-center my-3">Hello</h1>
+
+<body class="bg-secondary ">
+    <h1 class="text-white text-center my-3">Hello World!</h1>
+    <div class="d-flex justify-content-center">
+        <button type="button" class="btn btn-primary my-3"
+            onclick="Swal.fire('Bon travail !', 'Vous avez cliqué sur le bouton !', 'success' )">Click Me!</button>
+    </div>
+    <script src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
 </body>
+
 </html>
