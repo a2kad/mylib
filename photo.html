@@ -8,22 +8,26 @@
     <title>Photos</title>
     <link rel="stylesheet" href="node_modules/lightbox2/dist/css/lightbox.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
+
     <head>
-        <img src="assets/img/header.png" alt="">
+        <div class="headerDiv">
+            <div class="textHeader"><i class="fa fa-camera-retro" aria-hidden="true"></i> Afpa photos</div>
+        </div>
     </head>
-    <a href="https://picsum.photos/seed/1/600/400?random=1" data-lightbox="image-1" data-title="My caption">
-        <img src="https://picsum.photos/seed/1/300/200?random=1" alt="">
-    </a>
-    <a href="https://picsum.photos/seed/2/600/400?random=2" data-lightbox="image-1" data-title="My caption">
-        <img src="https://picsum.photos/seed/2/300/200?random=2" alt="">
-    </a>
-    <a href="https://picsum.photos/seed/3/600/400?random=3" data-lightbox="image-1" data-title="My caption">
-        <img src="https://picsum.photos/seed/3/300/200?random=3" alt="">
-    </a>
+    <div class="mainDiv" id="mainDiv">
+        <!--Ici LightBox2 gallery-->
+    </div>
+
+    <div class="footerDiv">
+        <p>&copy; Created by Reshetnikov Ruslan</p>
+    </div>
+
     <script src="node_modules/lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
